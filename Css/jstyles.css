@@ -1,0 +1,30 @@
+body {
+	background-color:green;
+}
+
+.accordion p {
+	border:3px solid #D3A3F7;	
+	padding:5px;
+}
+.accordion p:nth-child(odd) {
+	background-color:#EAEAEA;
+	margin:0px 10px;
+	}
+
+.accordion p:nth-child(even) {
+	background-color:#E8EFF9;
+	margin:0px 20px 0px 42px;
+	box-shadow:4px 4px 4px #535353 inset;
+	min-height:30px;
+}
+
+.thacher p {
+	-webkit-transition:width 2s;
+	position:relative;
+	right:0;
+}
+
+.thacher p:hover {
+	right:-30px;
+	padding-top:30px;
+}
